@@ -19,14 +19,11 @@ function onFormSubmit(_event) {
         password,
     }
     
-    if (mail === "") {
+    if (mail === "" || password === "") {
         alert('Fill in all input fields!')
+        return;
     } 
-    else if (password === "") {
-        alert('Fill in all input fields!')
-    }
-    else { console.log(formData) }
-
+    else {console.log(formData)}
     
     formEl.reset()
 };
