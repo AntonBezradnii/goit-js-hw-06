@@ -11,5 +11,6 @@ function onInputTargetName(_event) {
      }
      else { nameInputEl.textContent = 'Anonymous' }
      
+     
 };
 
